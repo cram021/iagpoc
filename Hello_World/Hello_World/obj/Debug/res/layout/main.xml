@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"><!--    <Button
+        android:id="@+id/myButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />--><RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"><Button android:id="@+id/roundButton" android:layout_width="100sp" android:layout_height="100sp" android:background="@drawable/mybutton" android:gravity="center" android:text="3" android:textColor="#FFD630" android:layout_marginTop="400.0dp" android:textSize="32px" android:textStyle="bold" /><ImageView android:id="@+id/scaleObj" android:layout_width=".1sp" android:layout_height=".1sp" android:background="@drawable/scaleobject" android:gravity="center_vertical|bottom" android:layout_marginTop="400.0dp" android:layout_marginRight="50.0dp" /></RelativeLayout><!--    <Button
+        android:id="@+id/roundButton2"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:background="@drawable/myButton"
+        android:gravity="center"
+        android:text="4"
+        android:textColor="#FFD630"
+        android:layout_marginTop="400.0dp"
+        android:textSize="16px"
+        android:textStyle="bold" />--></LinearLayout>
